@@ -82,4 +82,4 @@ if __name__ == '__main__':
     #                                          end_date="19/12/2024")
     candle = fetch_option_candle_by_timestamp(exchange="NSE", underlying_symbol="SENSEX",  strike_price=80200, option_type="CE", expiry="near",
                                               timestamp="2024-12-19 14:45:00")
-    print(candle.text)
+    print(candle)
